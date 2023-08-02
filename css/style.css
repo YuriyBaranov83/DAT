@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,regular,600,700&display=swap&subset=cyrillic-ext");
+.header__line {
+  background-color: #1E6140;
+  min-height: 50px;
+}
+
 body {
   height: 100%;
   line-height: 1;
