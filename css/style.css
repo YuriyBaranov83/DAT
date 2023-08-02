@@ -28,6 +28,11 @@
   color: #FFFFFF;
   font-size: 16px;
   font-weight: 300;
+  display: flex;
+  align-items: center;
+}
+.info__list li a svg {
+  margin-left: 5px;
 }
 .info__item:not(:first-child) {
   margin-left: 47px;

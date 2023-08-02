@@ -26,6 +26,11 @@
          color: #FFFFFF;
          font-size: 16px;
          font-weight: 300;
+         display: flex;
+         align-items: center;
+         & svg{
+            margin-left: 5px;
+         }
       }
    } 
    &__item{
