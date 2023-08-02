@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,regular,600,700&display=swap&subset=cyrillic-ext");
 .header {
   max-width: 100%;
+  position: relative;
 }
 .header__line {
   background-color: #1E6140;

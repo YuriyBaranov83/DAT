@@ -1,5 +1,6 @@
 .header{
    max-width: 100%;
+   position: relative;
    &__line{
       background-color: #1E6140;
       min-height: 50px;
@@ -11,4 +12,5 @@
       width: 1920px;
      }
    }
+   
 }
