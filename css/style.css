@@ -1,7 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,regular,600,700&display=swap&subset=cyrillic-ext");
+.header {
+  max-width: 100%;
+}
 .header__line {
   background-color: #1E6140;
   min-height: 50px;
+}
+.header__print {
+  display: flex;
+  justify-content: center;
+}
+.header__print img {
+  width: 1410px;
 }
 
 body {
@@ -14,8 +24,8 @@ body {
 }
 
 .wrapper {
-  min-height: 100%;
   overflow: hidden;
+  width: 100%;
 }
 
 ._container {
