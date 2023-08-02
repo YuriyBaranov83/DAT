@@ -16,12 +16,21 @@
 }
 .header__container {
   position: absolute;
-  top: 0;
+  top: 14px;
   left: 25%;
 }
 
 .info__list {
   display: flex;
+}
+.info__list li a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 300;
+}
+.info__item:not(:first-child) {
+  margin-left: 47px;
 }
 
 body {

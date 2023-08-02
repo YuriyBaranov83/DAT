@@ -14,12 +14,23 @@
    }
    &__container{
       position: absolute;
-      top: 0;
+      top: 14px;
       left: 25%;
    }
 }
 .info{
    &__list{
       display: flex;
-   }   
+      & li a{
+         text-decoration: none;
+         color: #FFFFFF;
+         font-size: 16px;
+         font-weight: 300;
+      }
+   } 
+   &__item{
+      &:not(:first-child){
+         margin-left: 47px;
+      }
+   }  
 }
