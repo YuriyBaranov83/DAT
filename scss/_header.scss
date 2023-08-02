@@ -17,5 +17,9 @@
       top: 0;
       left: 25%;
    }
-
+}
+.info{
+   &__list{
+      display: flex;
+   }   
 }

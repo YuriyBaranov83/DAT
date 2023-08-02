@@ -20,6 +20,10 @@
   left: 25%;
 }
 
+.info__list {
+  display: flex;
+}
+
 body {
   height: 100%;
   line-height: 1;
